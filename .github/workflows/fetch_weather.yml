@@ -1,0 +1,26 @@
+name: Fetch weather and Commit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 */2'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch weather from openweathermap
+      env:
+        OPENWEATHERMAP_KEY: ${{ secrets.OPENWEATHERMAP_KEY }}
+      run: |-
+        curl "https://api.openweathermap.org/data/2.5/onecall?lat=-33.87&lon=18.66&appid=$OPENWEATHERMAP_KEY&units=metric" >> .\data\forecast.json
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest weather forecast: ${timestamp}" || exit 0
+        git push
