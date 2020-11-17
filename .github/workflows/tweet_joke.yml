@@ -8,9 +8,14 @@ on:
   schedule:
     - cron: '0 0/1 * * *'
 jobs:
-  build:
+  tweet:
 
     runs-on: ubuntu-latest
+    env:
+      consumer_key: ${{ secrets.consumer_key }}
+      consumer_secret: ${{ secrets.consumer_secret }}
+      access_token: ${{ secrets.access_token }}
+      access_token_secret: ${{ secrets.access_token_secret }}
     
     steps:
     - uses: actions/checkout@v2
