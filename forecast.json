@@ -4,20 +4,20 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1629835993,
+    "dt": 1629839466,
     "sunrise": 1629782037,
     "sunset": 1629822114,
-    "temp": 13.61,
-    "feels_like": 13.43,
+    "temp": 13.67,
+    "feels_like": 13.49,
     "pressure": 1020,
     "humidity": 92,
-    "dew_point": 12.34,
+    "dew_point": 12.4,
     "uvi": 0,
-    "clouds": 2,
+    "clouds": 8,
     "visibility": 10000,
-    "wind_speed": 2.77,
-    "wind_deg": 8,
-    "wind_gust": 3.57,
+    "wind_speed": 2.42,
+    "wind_deg": 355,
+    "wind_gust": 2.99,
     "weather": [
       {
         "id": 800,
@@ -29,37 +29,14 @@
   },
   "hourly": [
     {
-      "dt": 1629835200,
-      "temp": 13.61,
-      "feels_like": 13.43,
-      "pressure": 1020,
-      "humidity": 92,
-      "dew_point": 12.34,
-      "uvi": 0,
-      "clouds": 2,
-      "visibility": 10000,
-      "wind_speed": 2.77,
-      "wind_deg": 8,
-      "wind_gust": 3.57,
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01n"
-        }
-      ],
-      "pop": 0.06
-    },
-    {
       "dt": 1629838800,
-      "temp": 13.03,
-      "feels_like": 12.79,
+      "temp": 13.67,
+      "feels_like": 13.49,
       "pressure": 1020,
       "humidity": 92,
-      "dew_point": 11.76,
+      "dew_point": 12.4,
       "uvi": 0,
-      "clouds": 3,
+      "clouds": 8,
       "visibility": 10000,
       "wind_speed": 2.42,
       "wind_deg": 355,
@@ -76,11 +53,11 @@
     },
     {
       "dt": 1629842400,
-      "temp": 12.41,
-      "feels_like": 12.08,
+      "temp": 13.06,
+      "feels_like": 12.8,
       "pressure": 1020,
       "humidity": 91,
-      "dew_point": 10.98,
+      "dew_point": 11.63,
       "uvi": 0,
       "clouds": 12,
       "visibility": 10000,
@@ -99,13 +76,13 @@
     },
     {
       "dt": 1629846000,
-      "temp": 11.68,
-      "feels_like": 11.31,
-      "pressure": 1019,
+      "temp": 12.36,
+      "feels_like": 12.05,
+      "pressure": 1020,
       "humidity": 92,
-      "dew_point": 10.43,
+      "dew_point": 11.1,
       "uvi": 0,
-      "clouds": 16,
+      "clouds": 15,
       "visibility": 10000,
       "wind_speed": 3.17,
       "wind_deg": 13,
@@ -122,13 +99,13 @@
     },
     {
       "dt": 1629849600,
-      "temp": 10.83,
-      "feels_like": 10.37,
+      "temp": 11.55,
+      "feels_like": 11.16,
       "pressure": 1019,
       "humidity": 92,
-      "dew_point": 9.58,
+      "dew_point": 10.3,
       "uvi": 0,
-      "clouds": 17,
+      "clouds": 16,
       "visibility": 10000,
       "wind_speed": 2.86,
       "wind_deg": 11,
@@ -145,13 +122,13 @@
     },
     {
       "dt": 1629853200,
-      "temp": 9.83,
-      "feels_like": 8.55,
+      "temp": 10.6,
+      "feels_like": 10.12,
       "pressure": 1018,
       "humidity": 92,
-      "dew_point": 8.72,
+      "dew_point": 9.36,
       "uvi": 0,
-      "clouds": 1,
+      "clouds": 2,
       "visibility": 10000,
       "wind_speed": 2.61,
       "wind_deg": 14,
@@ -1161,6 +1138,32 @@
       "rain": {
         "1h": 3.08
       }
+    },
+    {
+      "dt": 1630008000,
+      "temp": 8.49,
+      "feels_like": 8.49,
+      "pressure": 1010,
+      "humidity": 95,
+      "dew_point": 7.73,
+      "uvi": 0,
+      "clouds": 100,
+      "visibility": 3689,
+      "wind_speed": 0.87,
+      "wind_deg": 124,
+      "wind_gust": 1.77,
+      "weather": [
+        {
+          "id": 502,
+          "main": "Rain",
+          "description": "heavy intensity rain",
+          "icon": "10n"
+        }
+      ],
+      "pop": 1,
+      "rain": {
+        "1h": 4.99
+      }
     }
   ],
   "daily": [
@@ -1175,14 +1178,14 @@
         "day": 16.57,
         "min": 9.85,
         "max": 16.83,
-        "night": 13.03,
-        "eve": 13.64,
+        "night": 13.67,
+        "eve": 13.65,
         "morn": 10.4
       },
       "feels_like": {
         "day": 16.06,
-        "night": 12.79,
-        "eve": 13.28,
+        "night": 13.49,
+        "eve": 13.26,
         "morn": 9.95
       },
       "pressure": 1020,
