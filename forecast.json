@@ -4,15 +4,15 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1633018754,
+    "dt": 1633022212,
     "sunrise": 1632975815,
     "sunset": 1633020417,
-    "temp": 19.64,
-    "feels_like": 19.3,
+    "temp": 17.67,
+    "feels_like": 17.29,
     "pressure": 1013,
-    "humidity": 63,
-    "dew_point": 12.41,
-    "uvi": 0.34,
+    "humidity": 69,
+    "dew_point": 11.92,
+    "uvi": 0,
     "clouds": 0,
     "visibility": 10000,
     "wind_speed": 3.58,
@@ -23,43 +23,20 @@
         "id": 800,
         "main": "Clear",
         "description": "clear sky",
-        "icon": "01d"
+        "icon": "01n"
       }
     ]
   },
   "hourly": [
     {
-      "dt": 1633017600,
-      "temp": 19.64,
-      "feels_like": 19.3,
-      "pressure": 1013,
-      "humidity": 63,
-      "dew_point": 12.41,
-      "uvi": 0.34,
-      "clouds": 0,
-      "visibility": 10000,
-      "wind_speed": 3.31,
-      "wind_deg": 190,
-      "wind_gust": 5.73,
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01d"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1633021200,
-      "temp": 18.99,
-      "feels_like": 18.64,
+      "temp": 17.67,
+      "feels_like": 17.29,
       "pressure": 1013,
-      "humidity": 65,
-      "dew_point": 12.27,
+      "humidity": 69,
+      "dew_point": 11.92,
       "uvi": 0,
-      "clouds": 2,
+      "clouds": 0,
       "visibility": 10000,
       "wind_speed": 2.7,
       "wind_deg": 171,
@@ -76,13 +53,13 @@
     },
     {
       "dt": 1633024800,
-      "temp": 17.89,
-      "feels_like": 17.54,
+      "temp": 17.19,
+      "feels_like": 16.82,
       "pressure": 1013,
-      "humidity": 69,
-      "dew_point": 12.13,
+      "humidity": 71,
+      "dew_point": 11.89,
       "uvi": 0,
-      "clouds": 2,
+      "clouds": 1,
       "visibility": 10000,
       "wind_speed": 2.88,
       "wind_deg": 151,
@@ -99,11 +76,11 @@
     },
     {
       "dt": 1633028400,
-      "temp": 16.62,
-      "feels_like": 16.27,
+      "temp": 16.44,
+      "feels_like": 16.07,
       "pressure": 1014,
       "humidity": 74,
-      "dew_point": 11.97,
+      "dew_point": 11.8,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -122,11 +99,11 @@
     },
     {
       "dt": 1633032000,
-      "temp": 15.08,
-      "feels_like": 14.73,
-      "pressure": 1015,
-      "humidity": 80,
-      "dew_point": 11.66,
+      "temp": 15.43,
+      "feels_like": 15.07,
+      "pressure": 1014,
+      "humidity": 78,
+      "dew_point": 11.62,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -145,11 +122,11 @@
     },
     {
       "dt": 1633035600,
-      "temp": 13.42,
-      "feels_like": 13.09,
+      "temp": 14.27,
+      "feels_like": 13.95,
       "pressure": 1015,
-      "humidity": 87,
-      "dew_point": 11.35,
+      "humidity": 84,
+      "dew_point": 11.61,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -1140,6 +1117,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1633190400,
+      "temp": 11.77,
+      "feels_like": 10.31,
+      "pressure": 1022,
+      "humidity": 50,
+      "dew_point": 1.91,
+      "uvi": 0.33,
+      "clouds": 41,
+      "visibility": 10000,
+      "wind_speed": 6.56,
+      "wind_deg": 161,
+      "wind_gust": 8.78,
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1153,15 +1153,15 @@
       "temp": {
         "day": 21.07,
         "min": 10.82,
-        "max": 21.95,
-        "night": 13.42,
-        "eve": 19.64,
+        "max": 22.25,
+        "night": 14.27,
+        "eve": 17.96,
         "morn": 10.82
       },
       "feels_like": {
         "day": 20.43,
-        "night": 13.09,
-        "eve": 19.3,
+        "night": 13.95,
+        "eve": 17.56,
         "morn": 10.18
       },
       "pressure": 1017,
