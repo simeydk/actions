@@ -4,60 +4,40 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1634156010,
+    "dt": 1634159468,
     "sunrise": 1634097971,
     "sunset": 1634144199,
-    "temp": 16.35,
-    "feels_like": 16,
+    "temp": 15.84,
+    "feels_like": 15.57,
     "pressure": 1007,
-    "humidity": 75,
-    "dew_point": 11.91,
+    "humidity": 80,
+    "dew_point": 12.4,
     "uvi": 0,
     "clouds": 100,
     "visibility": 10000,
     "wind_speed": 4.92,
     "wind_deg": 0,
-    "wind_gust": 10.28,
+    "wind_gust": 12.07,
     "weather": [
       {
-        "id": 804,
-        "main": "Clouds",
-        "description": "overcast clouds",
-        "icon": "04n"
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
       }
-    ]
+    ],
+    "rain": {
+      "1h": 0.17
+    }
   },
   "hourly": [
     {
-      "dt": 1634155200,
-      "temp": 16.35,
-      "feels_like": 16,
-      "pressure": 1007,
-      "humidity": 75,
-      "dew_point": 11.91,
-      "uvi": 0,
-      "clouds": 100,
-      "visibility": 10000,
-      "wind_speed": 8.79,
-      "wind_deg": 347,
-      "wind_gust": 14.4,
-      "weather": [
-        {
-          "id": 804,
-          "main": "Clouds",
-          "description": "overcast clouds",
-          "icon": "04n"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1634158800,
-      "temp": 16.18,
-      "feels_like": 15.86,
+      "temp": 15.84,
+      "feels_like": 15.57,
       "pressure": 1007,
-      "humidity": 77,
-      "dew_point": 12.15,
+      "humidity": 80,
+      "dew_point": 12.4,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -79,11 +59,11 @@
     },
     {
       "dt": 1634162400,
-      "temp": 15.88,
-      "feels_like": 15.64,
+      "temp": 15.71,
+      "feels_like": 15.48,
       "pressure": 1007,
-      "humidity": 81,
-      "dew_point": 12.63,
+      "humidity": 82,
+      "dew_point": 12.65,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -105,11 +85,11 @@
     },
     {
       "dt": 1634166000,
-      "temp": 15.58,
-      "feels_like": 15.39,
-      "pressure": 1008,
+      "temp": 15.53,
+      "feels_like": 15.33,
+      "pressure": 1007,
       "humidity": 84,
-      "dew_point": 12.89,
+      "dew_point": 12.84,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -137,7 +117,7 @@
       "humidity": 83,
       "dew_point": 12.65,
       "uvi": 0,
-      "clouds": 98,
+      "clouds": 99,
       "visibility": 10000,
       "wind_speed": 8.9,
       "wind_deg": 315,
@@ -157,13 +137,13 @@
     },
     {
       "dt": 1634173200,
-      "temp": 14.47,
-      "feels_like": 14.22,
+      "temp": 14.74,
+      "feels_like": 14.49,
       "pressure": 1009,
-      "humidity": 86,
-      "dew_point": 12.22,
+      "humidity": 85,
+      "dew_point": 12.25,
       "uvi": 0,
-      "clouds": 56,
+      "clouds": 65,
       "visibility": 10000,
       "wind_speed": 7.7,
       "wind_deg": 313,
@@ -1209,6 +1189,32 @@
       "rain": {
         "1h": 1.26
       }
+    },
+    {
+      "dt": 1634328000,
+      "temp": 11.38,
+      "feels_like": 10.56,
+      "pressure": 1018,
+      "humidity": 76,
+      "dew_point": 7.3,
+      "uvi": 0,
+      "clouds": 74,
+      "visibility": 10000,
+      "wind_speed": 5.46,
+      "wind_deg": 243,
+      "wind_gust": 9.68,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "pop": 0.97,
+      "rain": {
+        "1h": 0.62
+      }
     }
   ],
   "daily": [
@@ -1223,14 +1229,14 @@
         "day": 23.71,
         "min": 13.45,
         "max": 24.44,
-        "night": 16.18,
-        "eve": 19.15,
+        "night": 15.84,
+        "eve": 19.85,
         "morn": 13.45
       },
       "feels_like": {
         "day": 23.44,
-        "night": 15.86,
-        "eve": 18.69,
+        "night": 15.57,
+        "eve": 19.38,
         "morn": 13.17
       },
       "pressure": 1009,
