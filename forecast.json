@@ -4,61 +4,38 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1662156957,
+    "dt": 1662160543,
     "sunrise": 1662181290,
     "sunset": 1662222512,
-    "temp": 12.16,
-    "feels_like": 11.49,
+    "temp": 12.74,
+    "feels_like": 12.05,
     "pressure": 1018,
-    "humidity": 79,
-    "dew_point": 8.63,
+    "humidity": 76,
+    "dew_point": 8.62,
     "uvi": 0,
-    "clouds": 20,
+    "clouds": 40,
     "visibility": 10000,
-    "wind_speed": 5.14,
-    "wind_deg": 20,
+    "wind_speed": 10.29,
+    "wind_deg": 340,
     "weather": [
       {
-        "id": 801,
+        "id": 802,
         "main": "Clouds",
-        "description": "few clouds",
-        "icon": "02n"
+        "description": "scattered clouds",
+        "icon": "03n"
       }
     ]
   },
   "hourly": [
     {
-      "dt": 1662156000,
-      "temp": 12.16,
-      "feels_like": 11.49,
-      "pressure": 1018,
-      "humidity": 79,
-      "dew_point": 8.63,
-      "uvi": 0,
-      "clouds": 20,
-      "visibility": 10000,
-      "wind_speed": 4.9,
-      "wind_deg": 3,
-      "wind_gust": 10.16,
-      "weather": [
-        {
-          "id": 801,
-          "main": "Clouds",
-          "description": "few clouds",
-          "icon": "02n"
-        }
-      ],
-      "pop": 0.05
-    },
-    {
       "dt": 1662159600,
-      "temp": 12.18,
-      "feels_like": 11.46,
+      "temp": 12.74,
+      "feels_like": 12.05,
       "pressure": 1018,
-      "humidity": 77,
-      "dew_point": 8.27,
+      "humidity": 76,
+      "dew_point": 8.62,
       "uvi": 0,
-      "clouds": 35,
+      "clouds": 40,
       "visibility": 10000,
       "wind_speed": 4.75,
       "wind_deg": 1,
@@ -75,11 +52,11 @@
     },
     {
       "dt": 1662163200,
-      "temp": 12.12,
-      "feels_like": 11.37,
-      "pressure": 1019,
-      "humidity": 76,
-      "dew_point": 8.02,
+      "temp": 12.6,
+      "feels_like": 11.87,
+      "pressure": 1018,
+      "humidity": 75,
+      "dew_point": 8.29,
       "uvi": 0,
       "clouds": 51,
       "visibility": 10000,
@@ -98,13 +75,13 @@
     },
     {
       "dt": 1662166800,
-      "temp": 11.85,
-      "feels_like": 11.07,
+      "temp": 12.3,
+      "feels_like": 11.54,
       "pressure": 1019,
-      "humidity": 76,
-      "dew_point": 7.76,
+      "humidity": 75,
+      "dew_point": 8,
       "uvi": 0,
-      "clouds": 65,
+      "clouds": 62,
       "visibility": 10000,
       "wind_speed": 4.62,
       "wind_deg": 5,
@@ -121,13 +98,13 @@
     },
     {
       "dt": 1662170400,
-      "temp": 11.37,
-      "feels_like": 10.52,
-      "pressure": 1020,
+      "temp": 11.8,
+      "feels_like": 10.99,
+      "pressure": 1019,
       "humidity": 75,
-      "dew_point": 7.1,
+      "dew_point": 7.52,
       "uvi": 0,
-      "clouds": 78,
+      "clouds": 72,
       "visibility": 10000,
       "wind_speed": 4.5,
       "wind_deg": 6,
@@ -144,22 +121,22 @@
     },
     {
       "dt": 1662174000,
-      "temp": 11.13,
-      "feels_like": 10.26,
+      "temp": 11.45,
+      "feels_like": 10.61,
       "pressure": 1020,
       "humidity": 75,
-      "dew_point": 7.04,
+      "dew_point": 7.18,
       "uvi": 0,
-      "clouds": 90,
+      "clouds": 80,
       "visibility": 10000,
       "wind_speed": 4.57,
       "wind_deg": 6,
       "wind_gust": 9.82,
       "weather": [
         {
-          "id": 804,
+          "id": 803,
           "main": "Clouds",
-          "description": "overcast clouds",
+          "description": "broken clouds",
           "icon": "04n"
         }
       ],
@@ -1156,6 +1133,32 @@
       "pop": 1,
       "rain": {
         "1h": 0.8
+      }
+    },
+    {
+      "dt": 1662328800,
+      "temp": 10.36,
+      "feels_like": 9.49,
+      "pressure": 1016,
+      "humidity": 78,
+      "dew_point": 6.79,
+      "uvi": 0,
+      "clouds": 100,
+      "visibility": 10000,
+      "wind_speed": 10.27,
+      "wind_deg": 293,
+      "wind_gust": 15.21,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "pop": 1,
+      "rain": {
+        "1h": 0.63
       }
     }
   ],
