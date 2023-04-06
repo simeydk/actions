@@ -4,19 +4,19 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1680746734,
+    "dt": 1680750737,
     "sunrise": 1680757243,
     "sunset": 1680798881,
     "temp": 15.57,
-    "feels_like": 15.48,
+    "feels_like": 15.32,
     "pressure": 1010,
-    "humidity": 88,
-    "dew_point": 13.59,
+    "humidity": 82,
+    "dew_point": 12.51,
     "uvi": 0,
     "clouds": 0,
     "visibility": 10000,
-    "wind_speed": 2.57,
-    "wind_deg": 80,
+    "wind_speed": 4.63,
+    "wind_deg": 300,
     "weather": [
       {
         "id": 800,
@@ -28,35 +28,12 @@
   },
   "hourly": [
     {
-      "dt": 1680746400,
-      "temp": 15.57,
-      "feels_like": 15.48,
-      "pressure": 1010,
-      "humidity": 88,
-      "dew_point": 13.59,
-      "uvi": 0,
-      "clouds": 0,
-      "visibility": 10000,
-      "wind_speed": 1.36,
-      "wind_deg": 111,
-      "wind_gust": 1.44,
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01n"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1680750000,
-      "temp": 16.29,
-      "feels_like": 16.06,
+      "temp": 15.57,
+      "feels_like": 15.32,
       "pressure": 1010,
-      "humidity": 80,
-      "dew_point": 12.84,
+      "humidity": 82,
+      "dew_point": 12.51,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -75,11 +52,11 @@
     },
     {
       "dt": 1680753600,
-      "temp": 16.92,
-      "feels_like": 16.55,
+      "temp": 16.25,
+      "feels_like": 15.89,
       "pressure": 1010,
-      "humidity": 72,
-      "dew_point": 11.84,
+      "humidity": 75,
+      "dew_point": 11.82,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -98,11 +75,11 @@
     },
     {
       "dt": 1680757200,
-      "temp": 17.43,
-      "feels_like": 16.93,
+      "temp": 16.81,
+      "feels_like": 16.35,
       "pressure": 1010,
-      "humidity": 65,
-      "dew_point": 10.79,
+      "humidity": 69,
+      "dew_point": 11.1,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -121,11 +98,11 @@
     },
     {
       "dt": 1680760800,
-      "temp": 19.59,
-      "feels_like": 19.01,
+      "temp": 18.59,
+      "feels_like": 18.07,
       "pressure": 1010,
-      "humidity": 54,
-      "dew_point": 10.04,
+      "humidity": 60,
+      "dew_point": 10.68,
       "uvi": 0.37,
       "clouds": 0,
       "visibility": 10000,
@@ -144,22 +121,22 @@
     },
     {
       "dt": 1680764400,
-      "temp": 23.98,
-      "feels_like": 23.37,
+      "temp": 22.3,
+      "feels_like": 21.76,
       "pressure": 1010,
-      "humidity": 36,
-      "dew_point": 7.84,
+      "humidity": 45,
+      "dew_point": 9.81,
       "uvi": 1.42,
-      "clouds": 100,
+      "clouds": 80,
       "visibility": 10000,
       "wind_speed": 1.72,
       "wind_deg": 56,
       "wind_gust": 2.32,
       "weather": [
         {
-          "id": 804,
+          "id": 803,
           "main": "Clouds",
-          "description": "overcast clouds",
+          "description": "broken clouds",
           "icon": "04d"
         }
       ],
@@ -1145,6 +1122,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1680919200,
+      "temp": 13.19,
+      "feels_like": 12.52,
+      "pressure": 1015,
+      "humidity": 75,
+      "dew_point": 8.87,
+      "uvi": 0,
+      "clouds": 80,
+      "visibility": 10000,
+      "wind_speed": 4.98,
+      "wind_deg": 170,
+      "wind_gust": 7.83,
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1161,13 +1161,13 @@
         "max": 31.13,
         "night": 17.21,
         "eve": 21.46,
-        "morn": 16.92
+        "morn": 16.25
       },
       "feels_like": {
         "day": 29.07,
         "night": 17.41,
         "eve": 21.38,
-        "morn": 16.55
+        "morn": 15.89
       },
       "pressure": 1009,
       "humidity": 22,
