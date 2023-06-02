@@ -4,19 +4,19 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1685673956,
+    "dt": 1685675572,
     "sunrise": 1685684542,
     "sunset": 1685720672,
-    "temp": 12,
-    "feels_like": 11.81,
+    "temp": 11.51,
+    "feels_like": 11.28,
     "pressure": 1010,
     "humidity": 98,
-    "dew_point": 11.69,
+    "dew_point": 11.21,
     "uvi": 0,
     "clouds": 100,
-    "visibility": 100,
-    "wind_speed": 2.06,
-    "wind_deg": 70,
+    "visibility": 300,
+    "wind_speed": 2.57,
+    "wind_deg": 60,
     "weather": [
       {
         "id": 741,
@@ -28,35 +28,12 @@
   },
   "hourly": [
     {
-      "dt": 1685671200,
-      "temp": 12.33,
-      "feels_like": 12.13,
-      "pressure": 1010,
-      "humidity": 96,
-      "dew_point": 11.71,
-      "uvi": 0,
-      "clouds": 94,
-      "visibility": 10000,
-      "wind_speed": 1.61,
-      "wind_deg": 49,
-      "wind_gust": 1.66,
-      "weather": [
-        {
-          "id": 804,
-          "main": "Clouds",
-          "description": "overcast clouds",
-          "icon": "04n"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1685674800,
-      "temp": 12,
-      "feels_like": 11.81,
+      "temp": 11.51,
+      "feels_like": 11.28,
       "pressure": 1010,
       "humidity": 98,
-      "dew_point": 11.69,
+      "dew_point": 11.21,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -75,11 +52,11 @@
     },
     {
       "dt": 1685678400,
-      "temp": 12.42,
-      "feels_like": 12.2,
+      "temp": 12.03,
+      "feels_like": 11.77,
       "pressure": 1010,
       "humidity": 95,
-      "dew_point": 11.64,
+      "dew_point": 11.25,
       "uvi": 0,
       "clouds": 97,
       "visibility": 10000,
@@ -98,11 +75,11 @@
     },
     {
       "dt": 1685682000,
-      "temp": 12.76,
-      "feels_like": 12.49,
+      "temp": 12.47,
+      "feels_like": 12.17,
       "pressure": 1010,
       "humidity": 92,
-      "dew_point": 11.49,
+      "dew_point": 11.21,
       "uvi": 0,
       "clouds": 95,
       "visibility": 10000,
@@ -121,11 +98,11 @@
     },
     {
       "dt": 1685685600,
-      "temp": 13.17,
-      "feels_like": 12.81,
+      "temp": 12.97,
+      "feels_like": 12.59,
       "pressure": 1011,
       "humidity": 87,
-      "dew_point": 11.06,
+      "dew_point": 10.86,
       "uvi": 0,
       "clouds": 94,
       "visibility": 10000,
@@ -144,11 +121,11 @@
     },
     {
       "dt": 1685689200,
-      "temp": 14.29,
-      "feels_like": 13.81,
+      "temp": 14.19,
+      "feels_like": 13.7,
       "pressure": 1011,
       "humidity": 78,
-      "dew_point": 10.51,
+      "dew_point": 10.41,
       "uvi": 0.33,
       "clouds": 100,
       "visibility": 10000,
@@ -1217,6 +1194,32 @@
       "rain": {
         "1h": 0.19
       }
+    },
+    {
+      "dt": 1685844000,
+      "temp": 9.36,
+      "feels_like": 8.04,
+      "pressure": 1016,
+      "humidity": 92,
+      "dew_point": 8.12,
+      "uvi": 0,
+      "clouds": 56,
+      "visibility": 10000,
+      "wind_speed": 2.53,
+      "wind_deg": 19,
+      "wind_gust": 3,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "pop": 0.59,
+      "rain": {
+        "1h": 0.14
+      }
     }
   ],
   "daily": [
@@ -1229,17 +1232,17 @@
       "moon_phase": 0.44,
       "temp": {
         "day": 17.82,
-        "min": 12,
+        "min": 11.51,
         "max": 18.61,
         "night": 13.65,
         "eve": 13.91,
-        "morn": 12.42
+        "morn": 12.03
       },
       "feels_like": {
         "day": 17.09,
         "night": 13.19,
         "eve": 13.39,
-        "morn": 12.2
+        "morn": 11.77
       },
       "pressure": 1010,
       "humidity": 55,
@@ -1543,9 +1546,9 @@
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Damaging Winds",
-      "start": 1685656800,
+      "start": 1685728800,
       "end": 1685829599,
-      "description": "Difficulty in navigation at sea for small vessels and person water craft (e.g. kayaks) is possible. Small vessels at risk of taking on water and capsizing in locality. Localised build-up of sand on coastal routs and disruption to beachfront activities and short term disruption to small harbours and ports are possible.",
+      "description": "Along the coast, difficulty in navigation at sea for small vessels and person water craft (e.g. kayaks) is possible. Small vessels at risk of taking on water and capsizing in locality. Localised build-up of sand on coastal routs and disruption to beachfront activities and short term disruption to small harbours and ports are possible. Over the interior, localised problems for high-sided vehicles on prone routes is likely along with disruptions to road and rail transport. Localised damage to settlements and loss of agricultural production may occur.",
       "tags": [
         "Wind"
       ]
