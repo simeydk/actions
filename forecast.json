@@ -4,19 +4,20 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1686710272,
+    "dt": 1686712357,
     "sunrise": 1686721686,
     "sunset": 1686757387,
-    "temp": 14.25,
-    "feels_like": 14.18,
-    "pressure": 1008,
+    "temp": 14.19,
+    "feels_like": 14.12,
+    "pressure": 1009,
     "humidity": 94,
-    "dew_point": 13.3,
+    "dew_point": 13.24,
     "uvi": 0,
     "clouds": 100,
     "visibility": 2000,
-    "wind_speed": 14.92,
-    "wind_deg": 330,
+    "wind_speed": 7.72,
+    "wind_deg": 290,
+    "wind_gust": 13.89,
     "weather": [
       {
         "id": 502,
@@ -31,38 +32,12 @@
   },
   "hourly": [
     {
-      "dt": 1686708000,
-      "temp": 14.31,
-      "feels_like": 14.22,
-      "pressure": 1008,
-      "humidity": 93,
-      "dew_point": 13.19,
-      "uvi": 0,
-      "clouds": 100,
-      "visibility": 7723,
-      "wind_speed": 12.95,
-      "wind_deg": 316,
-      "wind_gust": 20.73,
-      "weather": [
-        {
-          "id": 501,
-          "main": "Rain",
-          "description": "moderate rain",
-          "icon": "10n"
-        }
-      ],
-      "pop": 0.99,
-      "rain": {
-        "1h": 1.77
-      }
-    },
-    {
       "dt": 1686711600,
-      "temp": 14.25,
-      "feels_like": 14.18,
-      "pressure": 1008,
+      "temp": 14.19,
+      "feels_like": 14.12,
+      "pressure": 1009,
       "humidity": 94,
-      "dew_point": 13.3,
+      "dew_point": 13.24,
       "uvi": 0,
       "clouds": 100,
       "visibility": 3507,
@@ -84,11 +59,11 @@
     },
     {
       "dt": 1686715200,
-      "temp": 14.16,
-      "feels_like": 14.06,
-      "pressure": 1008,
+      "temp": 14.11,
+      "feels_like": 14,
+      "pressure": 1009,
       "humidity": 93,
-      "dew_point": 13.05,
+      "dew_point": 13,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -110,11 +85,11 @@
     },
     {
       "dt": 1686718800,
-      "temp": 13.95,
-      "feels_like": 13.78,
+      "temp": 13.92,
+      "feels_like": 13.74,
       "pressure": 1009,
       "humidity": 91,
-      "dew_point": 12.51,
+      "dew_point": 12.48,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -136,11 +111,11 @@
     },
     {
       "dt": 1686722400,
-      "temp": 13.86,
-      "feels_like": 13.52,
-      "pressure": 1010,
+      "temp": 13.84,
+      "feels_like": 13.5,
+      "pressure": 1011,
       "humidity": 85,
-      "dew_point": 11.38,
+      "dew_point": 11.36,
       "uvi": 0,
       "clouds": 100,
       "visibility": 10000,
@@ -162,11 +137,11 @@
     },
     {
       "dt": 1686726000,
-      "temp": 13.55,
-      "feels_like": 13.02,
+      "temp": 13.54,
+      "feels_like": 13.01,
       "pressure": 1012,
       "humidity": 79,
-      "dew_point": 9.98,
+      "dew_point": 9.97,
       "uvi": 0.21,
       "clouds": 100,
       "visibility": 10000,
@@ -1232,6 +1207,29 @@
         }
       ],
       "pop": 0.16
+    },
+    {
+      "dt": 1686880800,
+      "temp": 10.64,
+      "feels_like": 10.21,
+      "pressure": 1017,
+      "humidity": 94,
+      "dew_point": 9.78,
+      "uvi": 0,
+      "clouds": 38,
+      "visibility": 10000,
+      "wind_speed": 4.98,
+      "wind_deg": 9,
+      "wind_gust": 10.94,
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03n"
+        }
+      ],
+      "pop": 0.04
     }
   ],
   "daily": [
@@ -1248,13 +1246,13 @@
         "max": 14.8,
         "night": 11.41,
         "eve": 12.57,
-        "morn": 14.16
+        "morn": 14.11
       },
       "feels_like": {
         "day": 13.4,
         "night": 10.9,
         "eve": 11.87,
-        "morn": 14.06
+        "morn": 14
       },
       "pressure": 1014,
       "humidity": 69,
@@ -1559,22 +1557,22 @@
   "alerts": [
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
-      "event": "Damaging Winds",
-      "start": 1686672000,
-      "end": 1686779999,
-      "description": "Localised damage to informal settlements can be expected. Some transport routes and travel services affected by the wind (trees falling) which will result in longer travel times. Localised problems for high sided vehicles on prone routes (N1 Highway) as well as localised damage to temporary structures.",
-      "tags": [
-        "Wind"
-      ]
-    },
-    {
-      "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Disruptive Rain",
       "start": 1686693600,
       "end": 1686866399,
       "description": "Heavy downpours is likely to lead to flooding of roads, formal and informal settlements which may lead to damage to property/infrastructure and displacement of vulnerable communities. Essential services such as water and electricity may be affected. Major disruption of traffic flow due to major roads being flooded can be expected which will increase travel time. Mudslides and rockfalls may also occur in susceptible areas.",
       "tags": [
         "Rain"
+      ]
+    },
+    {
+      "sender_name": "SAWSWesternCapeRegionalOffice",
+      "event": "Damaging Winds",
+      "start": 1686710325,
+      "end": 1686866399,
+      "description": "Localised damage to formal and informal settlements can be expected. Some transport routes and travel services may be affected by the wind (trees falling) which will result in longer travel times. Localised problems for high sided vehicles on prone routes (N1 Highway) is likely as well as localised damage to temporary structures.",
+      "tags": [
+        "Wind"
       ]
     }
   ]
