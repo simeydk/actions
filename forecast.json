@@ -4,67 +4,42 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1695615255,
+    "dt": 1695618663,
     "sunrise": 1695616278,
     "sunset": 1695660186,
-    "temp": 13.48,
-    "feels_like": 13.29,
-    "pressure": 1012,
+    "temp": 13.35,
+    "feels_like": 13.14,
+    "pressure": 1013,
     "humidity": 92,
-    "dew_point": 12.21,
+    "dew_point": 12.08,
     "uvi": 0,
     "clouds": 75,
-    "visibility": 3800,
-    "wind_speed": 13.89,
+    "visibility": 4000,
+    "wind_speed": 12.35,
     "wind_deg": 190,
+    "wind_gust": 18.01,
     "weather": [
       {
-        "id": 501,
+        "id": 500,
         "main": "Rain",
-        "description": "moderate rain",
-        "icon": "10n"
+        "description": "light rain",
+        "icon": "10d"
       }
     ],
     "rain": {
-      "1h": 0.25
+      "1h": 0.51
     }
   },
   "hourly": [
     {
-      "dt": 1695614400,
-      "temp": 13.48,
-      "feels_like": 13.29,
-      "pressure": 1012,
+      "dt": 1695618000,
+      "temp": 13.35,
+      "feels_like": 13.14,
+      "pressure": 1013,
       "humidity": 92,
-      "dew_point": 12.21,
+      "dew_point": 12.08,
       "uvi": 0,
       "clouds": 75,
-      "visibility": 9257,
-      "wind_speed": 14.58,
-      "wind_deg": 194,
-      "wind_gust": 21.25,
-      "weather": [
-        {
-          "id": 501,
-          "main": "Rain",
-          "description": "moderate rain",
-          "icon": "10n"
-        }
-      ],
-      "pop": 1,
-      "rain": {
-        "1h": 1.38
-      }
-    },
-    {
-      "dt": 1695618000,
-      "temp": 13.48,
-      "feels_like": 13.31,
-      "pressure": 1012,
-      "humidity": 93,
-      "dew_point": 12.37,
-      "uvi": 0,
-      "clouds": 80,
       "visibility": 6702,
       "wind_speed": 14.17,
       "wind_deg": 197,
@@ -84,13 +59,13 @@
     },
     {
       "dt": 1695621600,
-      "temp": 13.5,
-      "feels_like": 13.33,
+      "temp": 13.39,
+      "feels_like": 13.21,
       "pressure": 1013,
       "humidity": 93,
-      "dew_point": 12.39,
+      "dew_point": 12.28,
       "uvi": 0.03,
-      "clouds": 85,
+      "clouds": 80,
       "visibility": 8640,
       "wind_speed": 14.44,
       "wind_deg": 198,
@@ -110,13 +85,13 @@
     },
     {
       "dt": 1695625200,
-      "temp": 13.57,
-      "feels_like": 13.41,
+      "temp": 13.46,
+      "feels_like": 13.29,
       "pressure": 1014,
       "humidity": 93,
-      "dew_point": 12.46,
+      "dew_point": 12.35,
       "uvi": 0.21,
-      "clouds": 90,
+      "clouds": 85,
       "visibility": 8284,
       "wind_speed": 13.63,
       "wind_deg": 197,
@@ -136,13 +111,13 @@
     },
     {
       "dt": 1695628800,
-      "temp": 13.76,
-      "feels_like": 13.62,
-      "pressure": 1016,
+      "temp": 13.64,
+      "feels_like": 13.49,
+      "pressure": 1015,
       "humidity": 93,
-      "dew_point": 12.65,
+      "dew_point": 12.53,
       "uvi": 0.42,
-      "clouds": 95,
+      "clouds": 90,
       "visibility": 8685,
       "wind_speed": 12.21,
       "wind_deg": 192,
@@ -162,13 +137,13 @@
     },
     {
       "dt": 1695632400,
-      "temp": 14.09,
-      "feels_like": 13.96,
-      "pressure": 1018,
+      "temp": 13.94,
+      "feels_like": 13.79,
+      "pressure": 1017,
       "humidity": 92,
-      "dew_point": 12.9,
+      "dew_point": 12.66,
       "uvi": 0.65,
-      "clouds": 100,
+      "clouds": 95,
       "visibility": 10000,
       "wind_speed": 10.43,
       "wind_deg": 189,
@@ -1178,6 +1153,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1695787200,
+      "temp": 8.91,
+      "feels_like": 8.23,
+      "pressure": 1024,
+      "humidity": 79,
+      "dew_point": 5.61,
+      "uvi": 0,
+      "clouds": 0,
+      "visibility": 10000,
+      "wind_speed": 1.67,
+      "wind_deg": 99,
+      "wind_gust": 2.02,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1194,13 +1192,13 @@
         "max": 14.28,
         "night": 13.35,
         "eve": 13.89,
-        "morn": 13.48
+        "morn": 13.39
       },
       "feels_like": {
         "day": 13.95,
         "night": 12.75,
         "eve": 13.61,
-        "morn": 13.29
+        "morn": 13.21
       },
       "pressure": 1018,
       "humidity": 92,
@@ -1509,20 +1507,20 @@
     },
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
-      "event": "Damaging Winds",
-      "start": 1695549600,
+      "event": "Disruptive Rain",
+      "start": 1695553200,
       "end": 1695679199,
-      "description": "Damage to formal/informal settlements and some structural damage is possible. \nFallen trees may affect transport routes and properties. \nLonger travel times are expected as well as localised problems for high-sided vehicles, especially on the N1 and N2.\nInterruptions to power, communication and/or other utilities and services can also be expected.",
+      "description": "Flooding of roads and settlements (formal and informal) is possible which could result in damage to property and infrastructure. Disruption of traffic flow is likely, along with increased motor vehicle accidents. Essential services such as water and electricity may also be affected. Mudslides and rock falls may also occur in susceptible areas. Some communities could be temporarily inaccessible. Danger to life due to fast flowing streams.",
       "tags": [
         "Other dangers"
       ]
     },
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
-      "event": "Disruptive Rain",
-      "start": 1695553200,
+      "event": "Damaging Winds",
+      "start": 1695616620,
       "end": 1695679199,
-      "description": "Flooding of roads and settlements (formal and informal) is possible which could result in damage to property and infrastructure. Disruption of traffic flow is likely, along with increased motor vehicle accidents. Essential services such as water and electricity may also be affected. Mudslides and rock falls may also occur in susceptible areas. Some communities could be temporarily inaccessible. Danger to life due to fast flowing streams.",
+      "description": "Damage to formal/informal settlements and some structural damage is possible. \nFallen trees may affect transport routes and properties. \nLonger travel times are expected as well as localised problems for high-sided vehicles, especially on the N1 and N2.\nInterruptions to power, communication and/or other utilities and services can also be expected.",
       "tags": [
         "Other dangers"
       ]
