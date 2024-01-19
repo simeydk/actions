@@ -4,14 +4,14 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1705630521,
+    "dt": 1705633415,
     "sunrise": 1705636393,
     "sunset": 1705687086,
-    "temp": 20.06,
-    "feels_like": 19.9,
+    "temp": 20.25,
+    "feels_like": 20.05,
     "pressure": 1011,
-    "humidity": 68,
-    "dew_point": 13.98,
+    "humidity": 66,
+    "dew_point": 13.7,
     "uvi": 0,
     "clouds": 0,
     "visibility": 10000,
@@ -28,35 +28,12 @@
   },
   "hourly": [
     {
-      "dt": 1705629600,
-      "temp": 20.06,
-      "feels_like": 19.9,
-      "pressure": 1011,
-      "humidity": 68,
-      "dew_point": 13.98,
-      "uvi": 0,
-      "clouds": 0,
-      "visibility": 10000,
-      "wind_speed": 2.17,
-      "wind_deg": 90,
-      "wind_gust": 2.45,
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01n"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1705633200,
-      "temp": 19.63,
-      "feels_like": 19.42,
+      "temp": 20.25,
+      "feels_like": 20.05,
       "pressure": 1011,
-      "humidity": 68,
-      "dew_point": 13.57,
+      "humidity": 66,
+      "dew_point": 13.7,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -75,11 +52,11 @@
     },
     {
       "dt": 1705636800,
-      "temp": 19.18,
-      "feels_like": 18.9,
-      "pressure": 1012,
-      "humidity": 67,
-      "dew_point": 12.91,
+      "temp": 19.77,
+      "feels_like": 19.53,
+      "pressure": 1011,
+      "humidity": 66,
+      "dew_point": 13.24,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -98,11 +75,11 @@
     },
     {
       "dt": 1705640400,
-      "temp": 20.7,
-      "feels_like": 20.37,
-      "pressure": 1013,
-      "humidity": 59,
-      "dew_point": 12.41,
+      "temp": 20.6,
+      "feels_like": 20.31,
+      "pressure": 1012,
+      "humidity": 61,
+      "dew_point": 12.82,
       "uvi": 0.53,
       "clouds": 0,
       "visibility": 10000,
@@ -121,11 +98,11 @@
     },
     {
       "dt": 1705644000,
-      "temp": 24.02,
-      "feels_like": 23.7,
+      "temp": 23.11,
+      "feels_like": 22.81,
       "pressure": 1013,
-      "humidity": 47,
-      "dew_point": 12.02,
+      "humidity": 51,
+      "dew_point": 12.43,
       "uvi": 1.88,
       "clouds": 0,
       "visibility": 10000,
@@ -144,11 +121,11 @@
     },
     {
       "dt": 1705647600,
-      "temp": 28.48,
-      "feels_like": 27.56,
+      "temp": 26.83,
+      "feels_like": 26.65,
       "pressure": 1013,
-      "humidity": 32,
-      "dew_point": 9.96,
+      "humidity": 38,
+      "dew_point": 11.33,
       "uvi": 4.31,
       "clouds": 0,
       "visibility": 10000,
@@ -1130,6 +1107,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1705802400,
+      "temp": 17.49,
+      "feels_like": 17.64,
+      "pressure": 1013,
+      "humidity": 90,
+      "dew_point": 15.88,
+      "uvi": 0,
+      "clouds": 16,
+      "visibility": 10000,
+      "wind_speed": 2.24,
+      "wind_deg": 175,
+      "wind_gust": 2.71,
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1142,17 +1142,17 @@
       "moon_phase": 0.29,
       "temp": {
         "day": 34.24,
-        "min": 19.18,
+        "min": 18.92,
         "max": 34.97,
         "night": 23.35,
         "eve": 32.24,
-        "morn": 19.18
+        "morn": 19.77
       },
       "feels_like": {
         "day": 32.22,
         "night": 22.79,
         "eve": 30.33,
-        "morn": 18.9
+        "morn": 19.53
       },
       "pressure": 1012,
       "humidity": 20,
@@ -1450,7 +1450,7 @@
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Weather Advisory",
-      "start": 1705557600,
+      "start": 1705658400,
       "end": 1705701599,
       "description": "When the temperature is extremely high, humans’ ability to cool their bodies through sweating is reduced. This can be a real threat that may lead to hyperthermia.\nIn an extremely hot environment, the most serious health and safety concern is heat stroke. Heat stroke can be fatal if medical attention is not available immediately.",
       "tags": [
