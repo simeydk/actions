@@ -4,19 +4,19 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1708949088,
+    "dt": 1708952598,
     "sunrise": 1708921813,
     "sunset": 1708968413,
-    "temp": 25.59,
-    "feels_like": 25.14,
+    "temp": 26.26,
+    "feels_like": 26.26,
     "pressure": 1018,
-    "humidity": 36,
-    "dew_point": 9.43,
-    "uvi": 9.81,
+    "humidity": 40,
+    "dew_point": 11.6,
+    "uvi": 7.34,
     "clouds": 0,
     "visibility": 10000,
-    "wind_speed": 9.26,
-    "wind_deg": 170,
+    "wind_speed": 10.29,
+    "wind_deg": 160,
     "weather": [
       {
         "id": 800,
@@ -28,35 +28,12 @@
   },
   "hourly": [
     {
-      "dt": 1708948800,
-      "temp": 25.59,
-      "feels_like": 25.14,
-      "pressure": 1018,
-      "humidity": 36,
-      "dew_point": 9.43,
-      "uvi": 9.81,
-      "clouds": 0,
-      "visibility": 10000,
-      "wind_speed": 4.1,
-      "wind_deg": 174,
-      "wind_gust": 4.43,
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01d"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1708952400,
-      "temp": 26.16,
-      "feels_like": 26.16,
+      "temp": 26.26,
+      "feels_like": 26.26,
       "pressure": 1018,
-      "humidity": 33,
-      "dew_point": 8.64,
+      "humidity": 40,
+      "dew_point": 11.6,
       "uvi": 7.34,
       "clouds": 0,
       "visibility": 10000,
@@ -75,11 +52,11 @@
     },
     {
       "dt": 1708956000,
-      "temp": 26.77,
-      "feels_like": 26.28,
+      "temp": 26.72,
+      "feels_like": 26.49,
       "pressure": 1018,
-      "humidity": 30,
-      "dew_point": 7.77,
+      "humidity": 36,
+      "dew_point": 10.42,
       "uvi": 4.42,
       "clouds": 0,
       "visibility": 10000,
@@ -98,11 +75,11 @@
     },
     {
       "dt": 1708959600,
-      "temp": 26.96,
-      "feels_like": 26.36,
+      "temp": 26.91,
+      "feels_like": 26.53,
       "pressure": 1017,
-      "humidity": 29,
-      "dew_point": 7.43,
+      "humidity": 34,
+      "dew_point": 9.74,
       "uvi": 1.99,
       "clouds": 0,
       "visibility": 10000,
@@ -121,11 +98,11 @@
     },
     {
       "dt": 1708963200,
-      "temp": 26.52,
-      "feels_like": 26.52,
-      "pressure": 1016,
-      "humidity": 28,
-      "dew_point": 6.54,
+      "temp": 26.55,
+      "feels_like": 26.55,
+      "pressure": 1017,
+      "humidity": 32,
+      "dew_point": 8.52,
       "uvi": 0.57,
       "clouds": 0,
       "visibility": 10000,
@@ -144,11 +121,11 @@
     },
     {
       "dt": 1708966800,
-      "temp": 24.05,
-      "feels_like": 23.37,
+      "temp": 24.49,
+      "feels_like": 23.88,
       "pressure": 1016,
-      "humidity": 33,
-      "dew_point": 6.12,
+      "humidity": 34,
+      "dew_point": 7.62,
       "uvi": 0,
       "clouds": 0,
       "visibility": 10000,
@@ -1130,6 +1107,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1709121600,
+      "temp": 36.02,
+      "feels_like": 33.6,
+      "pressure": 1009,
+      "humidity": 15,
+      "dew_point": 4.22,
+      "uvi": 9.31,
+      "clouds": 58,
+      "visibility": 10000,
+      "wind_speed": 4.13,
+      "wind_deg": 199,
+      "wind_gust": 3.13,
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1141,22 +1141,22 @@
       "moonset": 1708927260,
       "moon_phase": 0.56,
       "temp": {
-        "day": 25.32,
+        "day": 25.46,
         "min": 12.6,
-        "max": 26.96,
+        "max": 26.91,
         "night": 16.25,
-        "eve": 26.52,
+        "eve": 26.55,
         "morn": 12.6
       },
       "feels_like": {
-        "day": 24.74,
+        "day": 24.9,
         "night": 15.55,
-        "eve": 26.52,
+        "eve": 26.55,
         "morn": 11.8
       },
       "pressure": 1019,
       "humidity": 32,
-      "dew_point": 7.46,
+      "dew_point": 7.58,
       "wind_speed": 6.11,
       "wind_deg": 150,
       "wind_gust": 8.75,
@@ -1445,6 +1445,18 @@
       "pop": 0.57,
       "rain": 0.38,
       "uvi": 12
+    }
+  ],
+  "alerts": [
+    {
+      "sender_name": "SAWSWesternCapeRegionalOffice",
+      "event": "Veld Fire Conditions",
+      "start": 1709013600,
+      "end": 1709060399,
+      "description": "Conditions are such that the FDI index is above 75. Under these conditions fires may develop and spread rapidly resulting in damage to property and possible loss of human and/or animal life.",
+      "tags": [
+        "Fire warning"
+      ]
     }
   ]
 }
