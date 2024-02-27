@@ -4,19 +4,19 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1709028196,
+    "dt": 1709031797,
     "sunrise": 1709008265,
     "sunset": 1709054741,
-    "temp": 27.88,
-    "feels_like": 27.21,
-    "pressure": 1016,
-    "humidity": 34,
-    "dew_point": 10.59,
-    "uvi": 10.83,
+    "temp": 29.79,
+    "feels_like": 28.43,
+    "pressure": 1015,
+    "humidity": 28,
+    "dew_point": 9.34,
+    "uvi": 11.3,
     "clouds": 0,
     "visibility": 10000,
-    "wind_speed": 6.17,
-    "wind_deg": 150,
+    "wind_speed": 5.14,
+    "wind_deg": 160,
     "weather": [
       {
         "id": 800,
@@ -28,35 +28,12 @@
   },
   "hourly": [
     {
-      "dt": 1709028000,
-      "temp": 27.88,
-      "feels_like": 27.21,
-      "pressure": 1016,
-      "humidity": 34,
-      "dew_point": 10.59,
-      "uvi": 10.83,
-      "clouds": 0,
-      "visibility": 10000,
-      "wind_speed": 3.15,
-      "wind_deg": 115,
-      "wind_gust": 4.37,
-      "weather": [
-        {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01d"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1709031600,
-      "temp": 28.62,
-      "feels_like": 27.57,
-      "pressure": 1016,
-      "humidity": 30,
-      "dew_point": 9.36,
+      "temp": 29.79,
+      "feels_like": 28.43,
+      "pressure": 1015,
+      "humidity": 28,
+      "dew_point": 9.34,
       "uvi": 11.3,
       "clouds": 0,
       "visibility": 10000,
@@ -75,11 +52,11 @@
     },
     {
       "dt": 1709035200,
-      "temp": 29.81,
-      "feels_like": 28.33,
+      "temp": 30.37,
+      "feels_like": 28.77,
       "pressure": 1015,
-      "humidity": 26,
-      "dew_point": 8.26,
+      "humidity": 25,
+      "dew_point": 8.16,
       "uvi": 10.03,
       "clouds": 0,
       "visibility": 10000,
@@ -98,11 +75,11 @@
     },
     {
       "dt": 1709038800,
-      "temp": 31.16,
-      "feels_like": 29.31,
+      "temp": 31.21,
+      "feels_like": 29.36,
       "pressure": 1015,
       "humidity": 22,
-      "dew_point": 6.95,
+      "dew_point": 6.99,
       "uvi": 7.43,
       "clouds": 0,
       "visibility": 10000,
@@ -121,11 +98,11 @@
     },
     {
       "dt": 1709042400,
-      "temp": 32.24,
-      "feels_like": 30.1,
+      "temp": 31.91,
+      "feels_like": 29.89,
       "pressure": 1014,
-      "humidity": 18,
-      "dew_point": 4.93,
+      "humidity": 20,
+      "dew_point": 6.18,
       "uvi": 4.48,
       "clouds": 0,
       "visibility": 10000,
@@ -144,11 +121,11 @@
     },
     {
       "dt": 1709046000,
-      "temp": 32.81,
-      "feels_like": 30.59,
+      "temp": 32.21,
+      "feels_like": 30.12,
       "pressure": 1013,
-      "humidity": 17,
-      "dew_point": 3.07,
+      "humidity": 19,
+      "dew_point": 5.68,
       "uvi": 2,
       "clouds": 0,
       "visibility": 10000,
@@ -1130,6 +1107,29 @@
         }
       ],
       "pop": 0.2
+    },
+    {
+      "dt": 1709200800,
+      "temp": 32.67,
+      "feels_like": 30.76,
+      "pressure": 1009,
+      "humidity": 22,
+      "dew_point": 7.2,
+      "uvi": 10.83,
+      "clouds": 34,
+      "visibility": 10000,
+      "wind_speed": 5.92,
+      "wind_deg": 340,
+      "wind_gust": 8.27,
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "pop": 0.16
     }
   ],
   "daily": [
@@ -1141,22 +1141,22 @@
       "moonset": 1709016960,
       "moon_phase": 0.59,
       "temp": {
-        "day": 27.88,
+        "day": 29.83,
         "min": 13.55,
-        "max": 32.81,
+        "max": 32.21,
         "night": 18.51,
         "eve": 31.52,
         "morn": 13.55
       },
       "feels_like": {
-        "day": 27.21,
+        "day": 28.35,
         "night": 17.93,
         "eve": 29.5,
         "morn": 12.79
       },
-      "pressure": 1016,
-      "humidity": 34,
-      "dew_point": 10.59,
+      "pressure": 1015,
+      "humidity": 26,
+      "dew_point": 8.28,
       "wind_speed": 4.56,
       "wind_deg": 135,
       "wind_gust": 7.01,
@@ -1451,9 +1451,19 @@
   "alerts": [
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
+      "event": "Weather Advisory",
+      "start": 1709100000,
+      "end": 1709157599,
+      "description": "When the temperature is extremely high, humans’ ability to cool their bodies through sweating is reduced. This can be a real threat that may lead to hyperthermia.\nIn an extremely hot environment, the most serious health and safety concern is heat stroke. Heat stroke can be fatal if medical attention is not available immediately.",
+      "tags": [
+        "Other dangers"
+      ]
+    },
+    {
+      "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Veld Fire Conditions",
-      "start": 1709013600,
-      "end": 1709060399,
+      "start": 1709028105,
+      "end": 1709063999,
       "description": "Conditions are such that the FDI index is above 75. Under these conditions fires may develop and spread rapidly resulting in damage to property and possible loss of human and/or animal life.",
       "tags": [
         "Fire warning"
