@@ -4,18 +4,18 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1715407417,
+    "dt": 1715410995,
     "sunrise": 1715405268,
     "sunset": 1715442945,
-    "temp": 9.93,
-    "feels_like": 7.65,
+    "temp": 11.28,
+    "feels_like": 10.89,
     "pressure": 1021,
-    "humidity": 99,
-    "dew_point": 9.78,
-    "uvi": 0,
+    "humidity": 93,
+    "dew_point": 10.19,
+    "uvi": 0.55,
     "clouds": 75,
     "visibility": 1500,
-    "wind_speed": 4.63,
+    "wind_speed": 4.12,
     "wind_deg": 40,
     "weather": [
       {
@@ -28,37 +28,14 @@
   },
   "hourly": [
     {
-      "dt": 1715407200,
-      "temp": 9.93,
-      "feels_like": 9.73,
-      "pressure": 1021,
-      "humidity": 99,
-      "dew_point": 9.78,
-      "uvi": 0,
-      "clouds": 75,
-      "visibility": 10000,
-      "wind_speed": 1.35,
-      "wind_deg": 42,
-      "wind_gust": 1.42,
-      "weather": [
-        {
-          "id": 803,
-          "main": "Clouds",
-          "description": "broken clouds",
-          "icon": "04d"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1715410800,
-      "temp": 10.64,
-      "feels_like": 10.19,
+      "temp": 11.28,
+      "feels_like": 10.89,
       "pressure": 1021,
       "humidity": 93,
-      "dew_point": 9.56,
+      "dew_point": 10.19,
       "uvi": 0.55,
-      "clouds": 79,
+      "clouds": 75,
       "visibility": 10000,
       "wind_speed": 1.04,
       "wind_deg": 54,
@@ -75,13 +52,13 @@
     },
     {
       "dt": 1715414400,
-      "temp": 12.04,
-      "feels_like": 11.47,
-      "pressure": 1022,
-      "humidity": 83,
-      "dew_point": 9.25,
+      "temp": 12.06,
+      "feels_like": 11.57,
+      "pressure": 1021,
+      "humidity": 86,
+      "dew_point": 9.79,
       "uvi": 1.43,
-      "clouds": 79,
+      "clouds": 77,
       "visibility": 10000,
       "wind_speed": 0.67,
       "wind_deg": 91,
@@ -98,13 +75,13 @@
     },
     {
       "dt": 1715418000,
-      "temp": 14.01,
-      "feels_like": 13.27,
+      "temp": 13.46,
+      "feels_like": 12.82,
       "pressure": 1022,
-      "humidity": 69,
-      "dew_point": 8.42,
+      "humidity": 75,
+      "dew_point": 9.12,
       "uvi": 2.7,
-      "clouds": 67,
+      "clouds": 70,
       "visibility": 10000,
       "wind_speed": 0.92,
       "wind_deg": 169,
@@ -121,13 +98,13 @@
     },
     {
       "dt": 1715421600,
-      "temp": 15.93,
-      "feels_like": 15.01,
+      "temp": 14.97,
+      "feels_like": 14.17,
       "pressure": 1022,
-      "humidity": 55,
-      "dew_point": 6.91,
+      "humidity": 63,
+      "dew_point": 7.99,
       "uvi": 3.61,
-      "clouds": 53,
+      "clouds": 59,
       "visibility": 10000,
       "wind_speed": 1.54,
       "wind_deg": 199,
@@ -144,13 +121,13 @@
     },
     {
       "dt": 1715425200,
-      "temp": 17.98,
-      "feels_like": 16.93,
+      "temp": 16.64,
+      "feels_like": 15.72,
       "pressure": 1022,
-      "humidity": 42,
-      "dew_point": 4.89,
+      "humidity": 52,
+      "dew_point": 6.75,
       "uvi": 3.84,
-      "clouds": 39,
+      "clouds": 46,
       "visibility": 10000,
       "wind_speed": 2.18,
       "wind_deg": 213,
@@ -1130,6 +1107,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1715580000,
+      "temp": 11.48,
+      "feels_like": 10.43,
+      "pressure": 1018,
+      "humidity": 67,
+      "dew_point": 5.69,
+      "uvi": 0,
+      "clouds": 1,
+      "visibility": 10000,
+      "wind_speed": 1.96,
+      "wind_deg": 114,
+      "wind_gust": 2.41,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1141,22 +1141,22 @@
       "moonset": 1715452680,
       "moon_phase": 0.12,
       "temp": {
-        "day": 15.93,
-        "min": 9.93,
+        "day": 14.97,
+        "min": 10.78,
         "max": 18.25,
         "night": 11.73,
         "eve": 14.11,
-        "morn": 10.22
+        "morn": 10.91
       },
       "feels_like": {
-        "day": 15.01,
+        "day": 14.17,
         "night": 10.86,
         "eve": 13.12,
-        "morn": 9.7
+        "morn": 10.3
       },
       "pressure": 1022,
-      "humidity": 55,
-      "dew_point": 6.91,
+      "humidity": 63,
+      "dew_point": 7.99,
       "wind_speed": 4.81,
       "wind_deg": 192,
       "wind_gust": 6.01,
@@ -1168,7 +1168,7 @@
           "icon": "04d"
         }
       ],
-      "clouds": 53,
+      "clouds": 59,
       "pop": 0.38,
       "uvi": 3.84
     },
