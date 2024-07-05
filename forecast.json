@@ -4,19 +4,19 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1720184680,
+    "dt": 1720188234,
     "sunrise": 1720158641,
     "sunset": 1720194535,
-    "temp": 16.41,
-    "feels_like": 15.44,
+    "temp": 15.59,
+    "feels_like": 14.61,
     "pressure": 1025,
-    "humidity": 51,
-    "dew_point": 6.26,
-    "uvi": 1.48,
+    "humidity": 54,
+    "dew_point": 6.33,
+    "uvi": 0.69,
     "clouds": 20,
     "visibility": 10000,
-    "wind_speed": 3.09,
-    "wind_deg": 350,
+    "wind_speed": 3.6,
+    "wind_deg": 0,
     "weather": [
       {
         "id": 801,
@@ -28,37 +28,14 @@
   },
   "hourly": [
     {
-      "dt": 1720184400,
-      "temp": 16.41,
-      "feels_like": 15.44,
-      "pressure": 1025,
-      "humidity": 51,
-      "dew_point": 6.26,
-      "uvi": 1.48,
-      "clouds": 20,
-      "visibility": 10000,
-      "wind_speed": 1.73,
-      "wind_deg": 223,
-      "wind_gust": 2.21,
-      "weather": [
-        {
-          "id": 801,
-          "main": "Clouds",
-          "description": "few clouds",
-          "icon": "02d"
-        }
-      ],
-      "pop": 0
-    },
-    {
       "dt": 1720188000,
-      "temp": 16.05,
-      "feels_like": 15.07,
+      "temp": 15.59,
+      "feels_like": 14.61,
       "pressure": 1025,
-      "humidity": 52,
-      "dew_point": 6.21,
+      "humidity": 54,
+      "dew_point": 6.33,
       "uvi": 0.69,
-      "clouds": 16,
+      "clouds": 20,
       "visibility": 10000,
       "wind_speed": 1.29,
       "wind_deg": 198,
@@ -75,13 +52,13 @@
     },
     {
       "dt": 1720191600,
-      "temp": 15.18,
-      "feels_like": 14.22,
+      "temp": 15.14,
+      "feels_like": 14.17,
       "pressure": 1025,
       "humidity": 56,
-      "dew_point": 6.47,
+      "dew_point": 6.43,
       "uvi": 0.18,
-      "clouds": 12,
+      "clouds": 16,
       "visibility": 10000,
       "wind_speed": 1.79,
       "wind_deg": 211,
@@ -98,36 +75,36 @@
     },
     {
       "dt": 1720195200,
-      "temp": 13.1,
-      "feels_like": 12.06,
+      "temp": 13.71,
+      "feels_like": 12.7,
       "pressure": 1025,
-      "humidity": 61,
-      "dew_point": 5.76,
+      "humidity": 60,
+      "dew_point": 6.09,
       "uvi": 0,
-      "clouds": 8,
+      "clouds": 12,
       "visibility": 10000,
       "wind_speed": 0.87,
       "wind_deg": 178,
       "wind_gust": 1.59,
       "weather": [
         {
-          "id": 800,
-          "main": "Clear",
-          "description": "clear sky",
-          "icon": "01n"
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
         }
       ],
       "pop": 0
     },
     {
       "dt": 1720198800,
-      "temp": 11.49,
-      "feels_like": 10.39,
+      "temp": 12.39,
+      "feels_like": 11.33,
       "pressure": 1025,
-      "humidity": 65,
-      "dew_point": 5.15,
+      "humidity": 63,
+      "dew_point": 5.55,
       "uvi": 0,
-      "clouds": 4,
+      "clouds": 8,
       "visibility": 10000,
       "wind_speed": 0.94,
       "wind_deg": 102,
@@ -144,13 +121,13 @@
     },
     {
       "dt": 1720202400,
-      "temp": 9.77,
-      "feels_like": 9.42,
+      "temp": 10.93,
+      "feels_like": 9.83,
       "pressure": 1025,
-      "humidity": 70,
-      "dew_point": 4.51,
+      "humidity": 67,
+      "dew_point": 5.05,
       "uvi": 0,
-      "clouds": 0,
+      "clouds": 4,
       "visibility": 10000,
       "wind_speed": 1.47,
       "wind_deg": 89,
@@ -1172,6 +1149,32 @@
       "rain": {
         "1h": 0.95
       }
+    },
+    {
+      "dt": 1720357200,
+      "temp": 10.41,
+      "feels_like": 9.7,
+      "pressure": 1001,
+      "humidity": 84,
+      "dew_point": 7.9,
+      "uvi": 0.61,
+      "clouds": 100,
+      "visibility": 10000,
+      "wind_speed": 15.37,
+      "wind_deg": 262,
+      "wind_gust": 24.5,
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "moderate rain",
+          "icon": "10d"
+        }
+      ],
+      "pop": 1,
+      "rain": {
+        "1h": 1.1
+      }
     }
   ],
   "daily": [
@@ -1183,22 +1186,22 @@
       "moonset": 1720192200,
       "moon_phase": 0.98,
       "temp": {
-        "day": 15.17,
+        "day": 14.6,
         "min": 8.48,
-        "max": 16.41,
+        "max": 15.59,
         "night": 8.48,
-        "eve": 13.1,
+        "eve": 13.71,
         "morn": 10.18
       },
       "feels_like": {
-        "day": 14.13,
+        "day": 13.53,
         "night": 7.7,
-        "eve": 12.06,
+        "eve": 12.7,
         "morn": 9.32
       },
-      "pressure": 1026,
-      "humidity": 53,
-      "dew_point": 5.67,
+      "pressure": 1027,
+      "humidity": 54,
+      "dew_point": 5.41,
       "wind_speed": 6.56,
       "wind_deg": 264,
       "wind_gust": 12.39,
@@ -1210,7 +1213,7 @@
           "icon": "10d"
         }
       ],
-      "clouds": 11,
+      "clouds": 8,
       "pop": 1,
       "rain": 2.51,
       "uvi": 2.75
@@ -1508,22 +1511,22 @@
     },
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
-      "event": "Disruptive Rain",
-      "start": 1720303200,
-      "end": 1720389599,
-      "description": "Heavy downpours leading to flooding of roads, low-lying bridges,  formal/informal settlements, damage to property and infrastructure is possible.Some communities may be temporarily cut-off. Danger to life could result from crossing fast flowing streams/rivers.Disruption to essential services such as electricity and water can occur. Major disruption of traffic flow due to flooding of major roads.Mudslides and rockfalls may also occur in susceptible areas.",
-      "tags": [
-        "Rain"
-      ]
-    },
-    {
-      "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Damaging Winds",
       "start": 1720303200,
       "end": 1720389599,
       "description": "Damage to settlements (informal and formal). Injuries and danger to life from flying debris. Transport routes and travel services affected by wind, falling trees. Interruption to power, communication and/or other utilities and services.  Loss of agricultural production.",
       "tags": [
         "Wind"
+      ]
+    },
+    {
+      "sender_name": "SAWSWesternCapeRegionalOffice",
+      "event": "Disruptive Rain",
+      "start": 1720303200,
+      "end": 1720389599,
+      "description": "Flooding of roads, formal and informal settlements which may lead to damage to property/infrastructure and displacement of vulnerable communities. \nEssential services such as water and electricity may also be affected. \nMajor disruption of traffic flow due to major roads being flooded and damaged can be expected which will increase travel time. Mudslides and rockfalls may also occur in susceptible areas.",
+      "tags": [
+        "Rain"
       ]
     }
   ]
