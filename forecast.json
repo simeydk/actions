@@ -4,14 +4,14 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1720836966,
+    "dt": 1720839815,
     "sunrise": 1720849720,
     "sunset": 1720885991,
-    "temp": 10.44,
-    "feels_like": 9.84,
+    "temp": 10.42,
+    "feels_like": 9.82,
     "pressure": 1017,
     "humidity": 88,
-    "dew_point": 8.54,
+    "dew_point": 8.52,
     "uvi": 0,
     "clouds": 40,
     "visibility": 10000,
@@ -26,45 +26,19 @@
       }
     ],
     "rain": {
-      "1h": 0.19
+      "1h": 0.24
     }
   },
   "hourly": [
     {
-      "dt": 1720836000,
-      "temp": 10.44,
-      "feels_like": 9.84,
+      "dt": 1720839600,
+      "temp": 10.42,
+      "feels_like": 9.82,
       "pressure": 1017,
       "humidity": 88,
-      "dew_point": 8.54,
+      "dew_point": 8.52,
       "uvi": 0,
       "clouds": 40,
-      "visibility": 10000,
-      "wind_speed": 3.12,
-      "wind_deg": 15,
-      "wind_gust": 6.08,
-      "weather": [
-        {
-          "id": 500,
-          "main": "Rain",
-          "description": "light rain",
-          "icon": "10n"
-        }
-      ],
-      "pop": 0.41,
-      "rain": {
-        "1h": 0.19
-      }
-    },
-    {
-      "dt": 1720839600,
-      "temp": 10.17,
-      "feels_like": 9.57,
-      "pressure": 1017,
-      "humidity": 89,
-      "dew_point": 8.44,
-      "uvi": 0,
-      "clouds": 52,
       "visibility": 10000,
       "wind_speed": 2.95,
       "wind_deg": 14,
@@ -84,13 +58,13 @@
     },
     {
       "dt": 1720843200,
-      "temp": 9.99,
-      "feels_like": 8.75,
+      "temp": 10.2,
+      "feels_like": 9.6,
       "pressure": 1017,
-      "humidity": 90,
-      "dew_point": 8.43,
+      "humidity": 89,
+      "dew_point": 8.47,
       "uvi": 0,
-      "clouds": 64,
+      "clouds": 52,
       "visibility": 10000,
       "wind_speed": 2.59,
       "wind_deg": 7,
@@ -110,13 +84,13 @@
     },
     {
       "dt": 1720846800,
-      "temp": 9.83,
-      "feels_like": 8.66,
-      "pressure": 1016,
+      "temp": 10.02,
+      "feels_like": 9.43,
+      "pressure": 1017,
       "humidity": 90,
-      "dew_point": 8.27,
+      "dew_point": 8.46,
       "uvi": 0,
-      "clouds": 76,
+      "clouds": 64,
       "visibility": 10000,
       "wind_speed": 2.45,
       "wind_deg": 2,
@@ -136,13 +110,13 @@
     },
     {
       "dt": 1720850400,
-      "temp": 9.58,
-      "feels_like": 8.43,
+      "temp": 9.79,
+      "feels_like": 8.68,
       "pressure": 1017,
-      "humidity": 92,
-      "dew_point": 8.35,
+      "humidity": 91,
+      "dew_point": 8.39,
       "uvi": 0,
-      "clouds": 88,
+      "clouds": 76,
       "visibility": 10000,
       "wind_speed": 2.35,
       "wind_deg": 0,
@@ -162,13 +136,13 @@
     },
     {
       "dt": 1720854000,
-      "temp": 9.37,
-      "feels_like": 8.11,
+      "temp": 9.58,
+      "feels_like": 8.36,
       "pressure": 1017,
-      "humidity": 93,
-      "dew_point": 8.36,
+      "humidity": 92,
+      "dew_point": 8.35,
       "uvi": 0.05,
-      "clouds": 100,
+      "clouds": 88,
       "visibility": 9147,
       "wind_speed": 2.45,
       "wind_deg": 4,
@@ -1247,6 +1221,29 @@
         }
       ],
       "pop": 0.1
+    },
+    {
+      "dt": 1721008800,
+      "temp": 8.02,
+      "feels_like": 5.95,
+      "pressure": 1026,
+      "humidity": 90,
+      "dew_point": 6.57,
+      "uvi": 0,
+      "clouds": 19,
+      "visibility": 10000,
+      "wind_speed": 3.3,
+      "wind_deg": 23,
+      "wind_gust": 4.7,
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "pop": 0.07
     }
   ],
   "daily": [
@@ -1263,13 +1260,13 @@
         "max": 10.82,
         "night": 8.18,
         "eve": 9.97,
-        "morn": 9.99
+        "morn": 10.2
       },
       "feels_like": {
         "day": 9.56,
         "night": 5.86,
         "eve": 7.57,
-        "morn": 8.75
+        "morn": 9.6
       },
       "pressure": 1017,
       "humidity": 93,
@@ -1573,22 +1570,22 @@
   "alerts": [
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
-      "event": "Weather Advisory",
-      "start": 1720580025,
-      "end": 1720994399,
-      "description": "The combination of very cold, wet (rain and snow), and windy conditions may result in the loss of vulnerable livestock and crops. Due to the wind chill factor, temperatures may feel colder than the measured values. \nPossible flooding of roads and susceptible settlements is possible due to heavy rains. High waves may result in difficulty in navigation at sea and pose danger to beach goers.",
-      "tags": [
-        "Other dangers"
-      ]
-    },
-    {
-      "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Disruptive Rain",
       "start": 1720784216,
       "end": 1720994399,
       "description": "Flooding of roads, low-lying bridges, formal/informal settlements, damage to property and infrastructure is possible. Some communities may be temporarily cut-off. Danger to life could result from crossing fast flowing streams/rivers. Disruption to essential services such as electricity and water can occur. Major disruption of traffic flow due to flooding of major roads. Mudslides and rockfalls may also occur in susceptible areas. Thundershowers with large amount of small hail can possibly lead to further disruptions of major roads over the western parts.",
       "tags": [
         "Rain"
+      ]
+    },
+    {
+      "sender_name": "SAWSWesternCapeRegionalOffice",
+      "event": "Weather Advisory",
+      "start": 1720838622,
+      "end": 1720994399,
+      "description": "The combination of very cold, wet (rain and snow), and windy conditions may result in the loss of vulnerable livestock and crops. Due to the wind chill factor, temperatures may feel colder than the measured values. \nPossible flooding of roads and susceptible settlements is possible due to heavy rains. High waves may result in difficulty in navigation at sea and pose danger to beach goers.",
+      "tags": [
+        "Other dangers"
       ]
     }
   ]
