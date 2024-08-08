@@ -4,14 +4,14 @@
   "timezone": "Africa/Johannesburg",
   "timezone_offset": 7200,
   "current": {
-    "dt": 1723083463,
+    "dt": 1723086234,
     "sunrise": 1723095075,
     "sunset": 1723133446,
-    "temp": 12.48,
-    "feels_like": 11.82,
+    "temp": 12.32,
+    "feels_like": 11.62,
     "pressure": 1013,
-    "humidity": 78,
-    "dew_point": 8.75,
+    "humidity": 77,
+    "dew_point": 8.41,
     "uvi": 0,
     "clouds": 75,
     "visibility": 10000,
@@ -28,37 +28,14 @@
   },
   "hourly": [
     {
-      "dt": 1723082400,
-      "temp": 12.48,
-      "feels_like": 11.82,
+      "dt": 1723086000,
+      "temp": 12.32,
+      "feels_like": 11.62,
       "pressure": 1013,
-      "humidity": 78,
-      "dew_point": 8.75,
+      "humidity": 77,
+      "dew_point": 8.41,
       "uvi": 0,
       "clouds": 75,
-      "visibility": 10000,
-      "wind_speed": 3.79,
-      "wind_deg": 25,
-      "wind_gust": 6.3,
-      "weather": [
-        {
-          "id": 803,
-          "main": "Clouds",
-          "description": "broken clouds",
-          "icon": "04n"
-        }
-      ],
-      "pop": 0.09
-    },
-    {
-      "dt": 1723086000,
-      "temp": 11.83,
-      "feels_like": 11.21,
-      "pressure": 1013,
-      "humidity": 82,
-      "dew_point": 8.86,
-      "uvi": 0,
-      "clouds": 70,
       "visibility": 10000,
       "wind_speed": 4.05,
       "wind_deg": 22,
@@ -75,13 +52,13 @@
     },
     {
       "dt": 1723089600,
-      "temp": 11.46,
-      "feels_like": 10.85,
+      "temp": 11.84,
+      "feels_like": 11.17,
       "pressure": 1013,
-      "humidity": 84,
-      "dew_point": 8.85,
+      "humidity": 80,
+      "dew_point": 8.51,
       "uvi": 0,
-      "clouds": 69,
+      "clouds": 72,
       "visibility": 10000,
       "wind_speed": 4.15,
       "wind_deg": 19,
@@ -98,13 +75,13 @@
     },
     {
       "dt": 1723093200,
-      "temp": 11.19,
-      "feels_like": 10.61,
+      "temp": 11.52,
+      "feels_like": 10.89,
       "pressure": 1013,
-      "humidity": 86,
-      "dew_point": 8.94,
+      "humidity": 83,
+      "dew_point": 8.74,
       "uvi": 0,
-      "clouds": 71,
+      "clouds": 73,
       "visibility": 10000,
       "wind_speed": 4.68,
       "wind_deg": 23,
@@ -121,11 +98,11 @@
     },
     {
       "dt": 1723096800,
-      "temp": 11.07,
-      "feels_like": 10.5,
+      "temp": 11.36,
+      "feels_like": 10.77,
       "pressure": 1013,
-      "humidity": 87,
-      "dew_point": 8.99,
+      "humidity": 85,
+      "dew_point": 8.93,
       "uvi": 0.04,
       "clouds": 74,
       "visibility": 10000,
@@ -144,13 +121,13 @@
     },
     {
       "dt": 1723100400,
-      "temp": 11.19,
-      "feels_like": 10.66,
+      "temp": 11.42,
+      "feels_like": 10.86,
       "pressure": 1013,
-      "humidity": 88,
-      "dew_point": 9.31,
+      "humidity": 86,
+      "dew_point": 9.16,
       "uvi": 0.2,
-      "clouds": 100,
+      "clouds": 95,
       "visibility": 10000,
       "wind_speed": 5.43,
       "wind_deg": 17,
@@ -1205,6 +1182,29 @@
         }
       ],
       "pop": 0
+    },
+    {
+      "dt": 1723255200,
+      "temp": 9.43,
+      "feels_like": 6.06,
+      "pressure": 1016,
+      "humidity": 87,
+      "dew_point": 7.49,
+      "uvi": 0,
+      "clouds": 93,
+      "visibility": 10000,
+      "wind_speed": 7.53,
+      "wind_deg": 7,
+      "wind_gust": 14.5,
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "pop": 0
     }
   ],
   "daily": [
@@ -1217,17 +1217,17 @@
       "moon_phase": 0.12,
       "temp": {
         "day": 12.28,
-        "min": 10.07,
+        "min": 9.47,
         "max": 13.33,
         "night": 13.2,
         "eve": 12.2,
-        "morn": 11.46
+        "morn": 11.84
       },
       "feels_like": {
         "day": 11.84,
         "night": 12.87,
         "eve": 11.8,
-        "morn": 10.85
+        "morn": 11.17
       },
       "pressure": 1012,
       "humidity": 87,
@@ -1531,22 +1531,22 @@
   "alerts": [
     {
       "sender_name": "SAWSWesternCapeRegionalOffice",
-      "event": "Damaging Winds",
-      "start": 1723068000,
-      "end": 1723327199,
-      "description": "Damage to formal/informal settlements and some structural damage is possible. Longer travel times are expected due to localised problems for high-sided vehicles. Localised power and communication interruptions may occur. Risk of localised runaway fires.",
-      "tags": [
-        "Wind"
-      ]
-    },
-    {
-      "sender_name": "SAWSWesternCapeRegionalOffice",
       "event": "Disruptive Rain",
       "start": 1723143600,
       "end": 1723240799,
       "description": "Localised flooding of susceptible formal/informal settlements as well as minor motor vehicle accidents due to slippery roads and reduced visibility can be expected. Isolated cases of breakages of farm dam walls may occur. \nLocalised disruption of essential services is possible as well as localised mudslides and rockfalls.",
       "tags": [
         "Rain"
+      ]
+    },
+    {
+      "sender_name": "SAWSWesternCapeRegionalOffice",
+      "event": "Damaging Winds",
+      "start": 1723125600,
+      "end": 1723240799,
+      "description": "Damage to formal/informal settlements and some structural damage is possible. Longer travel times are expected due to localised problems for high-sided vehicles. Localised power and communication interruptions may occur. Risk of localised runaway fires.",
+      "tags": [
+        "Wind"
       ]
     }
   ]
